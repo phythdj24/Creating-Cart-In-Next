@@ -1,15 +1,14 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import ExampleClient from 'src/components/ExampleClient'
-
+import './style.css'
 
 export default function Home() {
-  console.log("Where Do i render")
+
+  
   return (
-    <main className={styles.main}>
+    <main className='hero'>
       
-<h1>hello</h1>
-<ExampleClient />
+     hello
+     
+
 
     </main>
   )
